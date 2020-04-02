@@ -1,7 +1,12 @@
 [
     {
-        "title": "软件",
+        "title": "破解版软件",
         "time": "20200401",
         "file": "/posts/software.md"
+    }
+    {
+        "title": "关于我们",
+        "time": "20200401",
+        "file": "/posts/about.md"
     }
 ]
