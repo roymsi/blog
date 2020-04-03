@@ -1,7 +1,7 @@
 [
     {
         "title": "工具",
-        "time": "20200401",
+        "time": "20200402",
         "file": "/posts/tools.md"
     },         
     {
@@ -9,6 +9,11 @@
         "time": "20200401",
         "file": "/posts/download.md"
     }, 
+    {
+        "title": "0元搭建自己的博客",
+        "time": "20200402",
+        "file": "/posts/buildblog.md"
+    }
     {
         "title": "破解版软件",
         "time": "20200401",
