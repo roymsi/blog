@@ -69,3 +69,29 @@ Github账户创建完成，进入下一步
 点击 保存并部署 ，点击 返回 ，重命名博客为想要的名称。
 
 ***
+
+##### 第三步：编写博客
+
+在前面创建的 Repository 里点击 Create a new file ，命名为 list.json​，输入以下内容，并修改 title 为博客的标题， time 为博客的创建时间，file 里的xxx为任意名字（不要有空格和中文，只有大小写字母和数字）。
+
+由于 json​ 对格式要求很严格，添加时注意缩进和括号、引号、逗号。
+
+```json
+[
+    {
+        "title": "",
+        "time": "",
+        "file": "/post/xxx.md"
+    }
+]
+```
+
+在 Repository 点击 Create a new file ，在命名时先输入 post/ ，按下回车，再输入前面修改的 xxx.md ，在文件内容里输入想要的内容。
+
+.json 文件语法：[语法](https://www.w3school.com.cn/js/js_json_syntax.asp)
+
+.md 文件编辑器：[Typora](https://www.typora.io/) .md文件语法：[语法](https://www.runoob.com/markdown/md-tutorial.html) 
+
+再打开你刚才重命名的博客，就能看到前面的博客了。
+
+如果打开博客页面为以下错误页面，请检查json格式。
