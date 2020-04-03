@@ -95,3 +95,5 @@ Github账户创建完成，进入下一步
 再打开你刚才重命名的博客，就能看到前面的博客了。
 
 如果打开博客页面为以下错误页面，请检查json格式。
+
+![cf error](https://raw.githubusercontent.com/roymsi/blog/master/res/cferror.png)
