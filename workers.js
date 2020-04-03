@@ -1,27 +1,27 @@
 /**
  *
- *  Cloudflare Workers Blog
+ *  TWSP Blog
  *
- *  https://github.com/kasuganosoras/cloudflare-worker-blog
+ *  https://github.com/roymsi/blog
  *
  */
 
 // 定义 Github 项目，文章会从这里读取
-const github_base = "kasuganosoras/cloudflare-worker-blog";
+const github_base = "roymsi/blog";
 
 // 站点名称
-const site_name = "CloudFlare Workers Blog";
+const site_name = "TWSP Blog (by CloudFlare Workers)";
 
 // 站点介绍
-const site_desc = "一个用 CloudFlare Worker 搭建的博客";
+const site_desc = "TWSP (TecWeb Software Project) 官方博客";
 
 // 资源文件
-const highlight_css = "https://cn.tql.ink:4443/css/highlight.js/github.css";
-const highlight_main = "https://cn.tql.ink:4443/js/highlight.min.js";
-const highlight_pack = "https://cn.tql.ink:4443/js/highlight.pack.js";
+const highlight_css = "https://raw.githubusercontent.com/roymsi/blog/master/highlight/github.css";
+const highlight_pack = "https://raw.githubusercontent.com/roymsi/blog/master/highlight/highlight.pack.js";
+const highlight_main = "https://raw.githubusercontent.com/roymsi/blog/master/highlight/highlight.min.js";
 
 // Copyright
-const copyright = `&copy; 2019 ${site_name} | <a href="https://github.com/kasuganosoras/cloudflare-worker-blog" target="_blank">Github</a>`;
+const copyright = `&copy; 2020 ${site_name} | <a href="https://github.com/roymsi/blog" target="_blank">Github</a>`;
 
 /* 配置到此结束 */
 
@@ -103,7 +103,7 @@ async function bloghandle(request) {
 						</div>
 					</a>`;
       } catch(e) {
-        // 收声
+        // 收尾
       }
     }
     if(json.length == 0) {
@@ -130,7 +130,7 @@ async function bloghandle(request) {
       data += resptxt.replace(/`/g, "\\`");
     } else {
       data += `
-### 404 Not Found
+### Erroe 404 No Such Blog
 您所访问的文章不存在。      
 `;
     }
