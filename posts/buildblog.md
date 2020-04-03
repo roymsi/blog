@@ -14,8 +14,6 @@
 
 在邮箱里点击 Verify email address，然后会自动转跳到 Create a new repository 页面
 
-![welcome](https://raw.githubusercontent.com/roymsi/blog/master/res/new.png)
-
 输入 Repository name ，其他不变，点击 Create repository 创建。
 
 Github账户创建完成，进入下一步
