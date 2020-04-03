@@ -525,7 +525,7 @@ document.addEventListener('readystatechange', function () {
 }(window);
 ```
 
-
+***
 
 ##### 2. 网盘自动填写提取码，直链下载
 
@@ -3329,7 +3329,7 @@ document.addEventListener('readystatechange', function () {
 })();
 ```
 
-
+***
 
 ##### 3. CSDN工具大全
 
@@ -3803,7 +3803,7 @@ function renderHideButton() {
 
 ```
 
-
+***
 
 ##### 4. 博客网站剪贴板净化
 
@@ -3843,9 +3843,13 @@ document.addEventListener('copy', addLink);
 })();
 ```
 
-
+***
 
 ##### 5. 破解网页禁止复制、剪切、选择文本、右键菜单的限制
+
+选择工具栏上的Tempermonkey图标，点击添加新脚本；
+
+复制以下代码到编辑框中，点击文件-保存
 
 ```javascript
 // ==UserScript==
