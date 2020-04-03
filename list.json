@@ -2,26 +2,26 @@
     {
         "title": "工具",
         "time": "20200402",
-        "file": "/posts/tools.md"
+        "file": "posts/tools.md"
     },         
     {
         "title": "下载中心",
         "time": "20200401",
-        "file": "/posts/download.md"
+        "file": "posts/download.md"
     }, 
     {
         "title": "0元搭建自己的博客",
         "time": "20200402",
-        "file": "/posts/buildblog.md"
+        "file": "posts/buildblog.md"
     },
     {
         "title": "破解版软件",
         "time": "20200401",
-        "file": "/posts/software.md"
+        "file": "posts/software.md"
     }, 
     {
         "title": "关于我们",
         "time": "20200401",
-        "file": "/posts/about.md"
+        "file": "posts/about.md"
     }
 ]
