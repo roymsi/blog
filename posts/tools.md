@@ -10,7 +10,7 @@
 
 复制以下代码到编辑框中，点击文件-保存
 
-```
+```javascript
 // ==UserScript==
 // @name        计时器掌控者|视频广告跳过|视频广告加速器
 // @name:en      TimerHooker
@@ -533,7 +533,7 @@ document.addEventListener('readystatechange', function () {
 
 复制以下代码到编辑框中，点击文件-保存
 
-```
+```javascript
 // ==UserScript==
 // @name         网盘助手
 // @namespace    http://pan.newday.me/
@@ -3337,7 +3337,7 @@ document.addEventListener('readystatechange', function () {
 
 复制以下代码到编辑框中，点击文件-保存
 
-```
+```javascript
 // ==UserScript==
 // @name         (持续更新)CSDN页面浮窗广告完全过滤净化(净化复制内容|自动展开|让你专注于文章|不影响功能使用)
 // @namespace    https://github.com/AdlerED
@@ -3811,7 +3811,7 @@ function renderHideButton() {
 
 复制以下代码到编辑框中，点击文件-保存
 
-```
+```javascript
 // ==UserScript==
 // @name         知乎、简书、csdn、实验楼剪切板消毒
 // @namespace    http://tampermonkey.net/
@@ -3847,7 +3847,7 @@ document.addEventListener('copy', addLink);
 
 ##### 5. 破解网页禁止复制、剪切、选择文本、右键菜单的限制
 
-```
+```javascript
 // ==UserScript==
 // @namespace         https://greasyfork.org/zh-CN/users/106222-qxin-i
 
