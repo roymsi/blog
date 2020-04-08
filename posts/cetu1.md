@@ -110,7 +110,7 @@
 
 ![image-20200407160800460](https://raw.githubusercontent.com/roymsi/cetu1/master/res/image-20200407160800460.png)
 
-将 newmem: 后的注释，修改为 ```add [xxx], 03``` （把 xxx 修改为上面 sub dword ptr [xxx], 01 中方括号中的内容）注意是 3 不是 2 ，因为源程序 $-1$ 后必须再 $+3$ 才能变成所要的 $+2$ ，点击 执行 ，随后一路确定。
+将 newmem: 后的注释，修改为 ```add [xxx], 03``` （把 xxx 修改为上面 sub dword ptr [xxx], 01 中方括号中的内容）注意是 3 不是 2 ，因为源程序 -1 后必须再 +3​ 才能变成所要的 ​+2​ ，点击 执行 ，随后一路确定。
 
 再一次点击 打我 ，现在下一步 按钮会变成可点击的，点击进入下一步。
 
@@ -124,7 +124,7 @@
 
 ![image-20200407162010696](https://raw.githubusercontent.com/roymsi/cetu1/master/res/image-20200407162010696.png)
 
-根据 Cheat Engine 给出的地址（这里是 $01571D10$），记住它的偏移量（方括号中 $+$ 后的内容），查找到指向它的指针，注意勾选 Hex。
+根据 Cheat Engine 给出的地址（这里是 01571D10），记住它的偏移量（方括号中 ​+​ 后的内容），查找到指向它的指针，注意勾选 Hex。
 
 ![image-20200407162323648](https://raw.githubusercontent.com/roymsi/cetu1/master/res/image-20200407162323648.png)
 
