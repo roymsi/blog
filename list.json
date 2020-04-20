@@ -10,6 +10,11 @@
         "file": "posts/download.md"
     },
     {
+        "title": "网站镜像 + 代理服务",
+        "time": "20200418",
+        "file": "posts/mirror.md"
+    },
+    {
         "title": "Cheat Engine 自带入门教程",
         "time": "20200407",
         "file": "posts/cetu1.md"
